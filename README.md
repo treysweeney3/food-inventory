@@ -1,22 +1,27 @@
-# React + Vite
+# vite-template-redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
 
-Currently, two official plugins are available:
+```sh
+npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Goals
 
-# Running/Maintaining
+- Easy migration from Create React App or Vite
+- As beginner friendly as Create React App
+- Optimized performance compared to Create React App
+- Customizable without ejecting
 
-This app will use React as its framework. Dependencies are managed by npm and the app is served locally out of Vitejs.
+## Scripts
 
-**To run in dev environment:**
+- `dev`/`start` - start dev server and open browser
+- `build` - build for production
+- `preview` - locally preview production build
+- `test` - launch test runner
 
-`npm install`
-*This may be a bit finnicky. Might have to mess with sys variables if on Windows.*
+## Inspiration
 
-`npm run-script dev`
-This will start app locally with default URL http://localhost:5173/
-
-**TODO:** Set up constants for dev/testing/prod environments
+- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
+- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
+- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
